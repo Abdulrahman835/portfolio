@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Basic -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- SEO -->
+  <title>Abdo Meligy | Front-End Developer & Gamer</title>
+  <meta name="description" content="Abdulrahman Mohamed, known as Abdo Meligy. Front-End Developer & Gamer. Personal modern portfolio with projects and contact.">
+  <meta name="keywords" content="Abdo Meligy, Abdulrahman Mohamed, Front-End Developer, HTML CSS JavaScript, Gamer Portfolio">
+  <meta name="author" content="Abdulrahman Mohamed">
+
+  <!-- Open Graph (Facebook / WhatsApp) -->
+  <meta property="og:title" content="Abdo Meligy | Front-End Developer">
+  <meta property="og:description" content="Personal portfolio of Abdo Meligy - Front-End Developer & Gamer">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="profile.png">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Abdo Meligy | Front-End Developer">
+  <meta name="twitter:description" content="Modern personal portfolio">
+  <meta name="twitter:image" content="profile.png">
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<header>
+  <div class="lang-switch">
+    <button onclick="setLang('ar')">AR</button>
+    <button onclick="setLang('en')">EN</button>
+    <button onclick="setLang('fr')">FR</button>
+    <button onclick="toggleDark()">🌙</button>
+  </div>
+</header>
+
+<main>
+
+<section class="hero fade">
+  <img src="profile/profile.jpg.jpg" alt="Abdulrahman Mohamed - Abdo Meligy">
+  <h1 id="name"></h1>
+  <h2 id="nickname"></h2>
+  <p id="desc"></p>
+
+  <a href="Abdo_Meligy_CV.pdf" class="cv-btn" download>Download CV</a>
+</section>
+
+<section class="info fade">
+  <div class="card" id="study"></div>
+  <div class="card" id="skills"></div>
+  <div class="card" id="gaming"></div>
+</section>
+
+<section class="projects fade">
+  <h2 id="projectsTitle"></h2>
+
+  <div class="projects-grid">
+    <div class="project-card">
+      <h3>Personal Portfolio</h3>
+      <p>Modern responsive portfolio website</p>
+      <span>HTML • CSS • JavaScript</span>
+    </div>
+
+    <div class="project-card">
+      <h3>Game Landing Page</h3>
+      <p>Landing page for gaming product</p>
+      <span>HTML • CSS</span>
+    </div>
+
+    <div class="project-card">
+      <h3>Interactive Form</h3>
+      <p>Form validation using JavaScript</p>
+      <span>JavaScript</span>
+    </div>
+  </div>
+</section>
+
+<section class="contact fade">
+  <h2 id="contactTitle"></h2>
+
+  <div class="contact-box">
+    <a href="tel:01096731985">📞 01096731985</a>
+    <a href="https://wa.me/201096731985" target="_blank">💬 WhatsApp</a>
+    <a href="https://instagram.com/abdulrahman_mohamed83" target="_blank">📸 Instagram</a>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <p>© 2025 Abdo Meligy</p>
+</footer>
+
+<script src="./script.js"></script>
+</body>
+</html>
